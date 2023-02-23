@@ -11,7 +11,7 @@ public class ExampleLocators  extends Base{
 		driver.findElement(By.id("searchnoresult"));
 		driver.findElement(By.id("searchlist"));
 		driver.findElement(By.id("cartprogressdiv"));
-		driver.findElement(By.id("loadingmaster"));
+		driver.findElement(By.id("loadingmaster"));//PASS
 		
 	}
 	@Test
@@ -20,7 +20,7 @@ public class ExampleLocators  extends Base{
 		driver.findElement(By.className("navmore"));
 	    driver.findElement(By.className("navlist"));
 		driver.findElement(By.className("cartemptybig"));
-		driver.findElement(By.className("headOverlay"));
+		driver.findElement(By.className("headOverlay"));//PASS
 	}
 
 	@Test
@@ -30,7 +30,7 @@ public class ExampleLocators  extends Base{
 		driver.findElement(By.id("HjtPBb"));
 		driver.findElement(By.id("tophf"));
 		driver.findElement(By.id("pTwnEc"));
-		driver.findElement(By.id("elPddd"));
+		driver.findElement(By.id("elPddd"));//PASS
 	}
 	@Test
 	public void flipkartLocateByClass() {
@@ -39,7 +39,7 @@ public class ExampleLocators  extends Base{
 		driver.findElement(By.className("_3704LK"));
 		driver.findElement(By.className("_1_3w1N"));
 		driver.findElement(By.className("exehdJ"));
-		driver.findElement(By.className("_3qX0zy"));
+		driver.findElement(By.className("_3qX0zy"));//PASS
 		
 	}
 	@Test
@@ -49,7 +49,7 @@ public class ExampleLocators  extends Base{
 		driver.findElement(By.name("MobileOptimized"));
 		driver.findElement(By.name("theme-color"));
 		driver.findElement(By.name("apple-mobile-web-app-capable"));
-		driver.findElement(By.name("google-site-verification"));
+		driver.findElement(By.name("google-site-verification"));//PASS
 	}
 	@Test
 	public void locateByLinktext() {
@@ -58,7 +58,7 @@ public class ExampleLocators  extends Base{
 		driver.findElement(By.linkText("Moms & Maternity"));
 		driver.findElement(By.linkText("Birthday Party Supplies"));
 		driver.findElement(By.linkText("Baby Diapering"));
-		driver.findElement(By.linkText("Bath & Skin Care"));
+		driver.findElement(By.linkText("Bath & Skin Care"));//PASS
 	}
 	@Test
 	public void locateByPartialLT() {
@@ -67,7 +67,7 @@ public class ExampleLocators  extends Base{
 		driver.findElement(By.partialLinkText("GlobalBees"));
 		driver.findElement(By.partialLinkText("Responsible"));
 		driver.findElement(By.partialLinkText("Birthday Party"));
-		driver.findElement(By.partialLinkText("Bath & Skin"));
+		driver.findElement(By.partialLinkText("Bath & Skin"));//PASS
 	}
 	@Test
 	public void locateBycss() {
@@ -76,7 +76,7 @@ public class ExampleLocators  extends Base{
         driver.findElement(By.cssSelector("div.ftb"));//tag & class
         driver.findElement(By.cssSelector("form[method=post]"));//tag & any attribute
         driver.findElement(By.cssSelector("input[autocomplete=off]"));
-        driver.findElement(By.cssSelector("div.overlay-content[id=overlay-contentVat-cart]"));  
+        driver.findElement(By.cssSelector("div.overlay-content[id=overlay-contentVat-cart]"));  //PASS   
 	}
 	@Test
 	public void locateByXpath() {
@@ -90,7 +90,7 @@ public class ExampleLocators  extends Base{
 		driver.findElement(By.xpath("//div[@onclick='CartHideNotify(cart_notify)']"));
 		driver.findElement(By.xpath("//input[@autocomplete='off']"));
 		driver.findElement(By.xpath("//style[@media='screen']"));
-		driver.findElement(By.xpath("//div[@id='fb-root']")); 
+		driver.findElement(By.xpath("//div[@id='fb-root']")); //PASS
 		
 	}
 	
